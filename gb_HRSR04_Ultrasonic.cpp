@@ -8,7 +8,7 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * Description:Implement DFRobot RTC module into the growbot system
+ * Description:Implement gb_HRSR04_Ultrasonic module into the growbot system
  *
  * Product Links：
  *
@@ -24,8 +24,8 @@
 
 gb_HRSR04_Ultrasonic::gb_HRSR04_Ultrasonic(int trigPin, int echoPin)
 {
-    this->trigPin = trigPin;
-    this->echoPin = echoPin;
+    _trigPin = trigPin;
+    _echoPin = echoPin;
 };
 
 //********************************************************************************************

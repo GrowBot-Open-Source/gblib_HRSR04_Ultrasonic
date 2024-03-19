@@ -29,6 +29,7 @@ class gb_HRSR04_Ultrasonic
 private:
     long duration;
     int distance;
+    byte _trigPin;
 
 public:
     gb_HRSR04_Ultrasonic(int echoPin, int trigPin){};
