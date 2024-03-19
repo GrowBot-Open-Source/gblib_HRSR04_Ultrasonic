@@ -1,8 +1,8 @@
 {
-"name": "gb_SENSORNAME",
+"name": "gb_HRSR04_Ultrasonic",
 "frameworks": "Arduino",
 "keywords": "keywords",
-"description": "Use the sensor XXXXX in the GrowBot system.",
+"description": "Use the sensor gb_HRSR04_Ultrasonic in the GrowBot system.",
 "authors":
 [
     {
